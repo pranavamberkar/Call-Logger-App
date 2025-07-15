@@ -1,4 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">CallLoggerApp</string>
-    <string name="call_logger">Call Logger</string>
+    <string name="app_name">Call Logger</string>
+
+    <string name="splash_title">Call Logger</string>
+
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="invalid_credentials">Invalid credentials</string>
+
+    <string name="profile_name">Admin</string>
+    <string name="profile_role">Manager / Admin</string>
+    <string name="profile_email">admin@example.com</string>
+    <string name="profile_phone">+91 9876543210</string>
+    <string name="view_contacts">View Contact List</string>
+    <string name="profile_image_desc">Profile Image</string>
+
+    <string name="next">Next</string>
+    <string name="back">Back</string>
 </resources>
