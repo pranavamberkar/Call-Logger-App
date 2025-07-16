@@ -26,5 +26,8 @@ class ProfileActivity : AppCompatActivity() {
             val intent = Intent(this, CallLogActivity::class.java)
             startActivity(intent)
         }
+        binding.viewDashboardButton.setOnClickListener {
+            startActivity(Intent(this, DashboardActivity::class.java))
+        }
     }
 }

@@ -22,5 +22,6 @@
         <activity android:name=".activities.ContactListActivity" />
         <activity android:name=".activities.FeedbackActivity" />
         <activity android:name=".activities.CallLogActivity" />
+        <activity android:name=".activities.DashboardActivity" />
     </application>
 </manifest>

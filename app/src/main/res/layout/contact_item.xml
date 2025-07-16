@@ -19,7 +19,7 @@
             android:id="@+id/name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Name"
+            android:text="@string/name"
             android:textStyle="bold"
             android:textColor="#FFFFFF"
             android:textSize="16sp" />
@@ -28,7 +28,7 @@
             android:id="@+id/phone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="1234567890"
+            android:text="@string/number"
             android:textColor="#FFFFFF"
             android:textSize="14sp" />
     </LinearLayout>
@@ -37,7 +37,7 @@
         android:id="@+id/callButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Call"
+        android:text="@string/call_button"
         android:textStyle="bold"
         android:textColor="#FFFFFF"
         android:backgroundTint="#0049AF"

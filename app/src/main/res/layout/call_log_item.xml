@@ -12,7 +12,7 @@
         android:id="@+id/statusText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Status: Connected"
+        android:text="@string/status_prefix"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
         android:textSize="16sp" />
@@ -21,7 +21,7 @@
         android:id="@+id/commentText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Comment here"
+        android:text="@string/comment_here"
         android:textColor="#DDDDDD"
         android:layout_marginTop="4dp" />
 
@@ -29,7 +29,7 @@
         android:id="@+id/timeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Time"
+        android:text="@string/time_prefix"
         android:textColor="#CCCCCC"
         android:textSize="12sp"
         android:layout_marginTop="6dp" />

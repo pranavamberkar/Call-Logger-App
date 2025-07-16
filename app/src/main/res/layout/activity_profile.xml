@@ -16,7 +16,7 @@
         android:layout_marginBottom="16dp"
         android:src="@drawable/img"
         android:scaleType="centerCrop"
-        android:contentDescription="Profile Image"
+        android:contentDescription="@string/profile_image_desc"
         app:shapeAppearanceOverlay="@style/CircleImage"
         android:elevation="4dp"
         android:background="@android:color/transparent" />
@@ -62,7 +62,6 @@
         android:text="@string/view_contacts"
         android:textStyle="bold"
         android:textColor="#FFFFFF"
-        android:drawableStart="@android:drawable/ic_menu_call"
         android:backgroundTint="#0049AF"
         android:minHeight="48dp"
         android:paddingStart="16dp"
@@ -73,6 +72,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/view_call_log"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#0D47A1"
+        android:layout_marginTop="16dp"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/viewDashboardButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/view_dashboard"
         android:textStyle="bold"
         android:textColor="#FFFFFF"
         android:backgroundTint="#0D47A1"

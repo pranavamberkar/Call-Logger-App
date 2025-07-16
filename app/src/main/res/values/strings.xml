@@ -1,22 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Call Logger</string>
+    <string name="app_name">Call Logger App</string>
 
-    <string name="splash_title">Call Logger</string>
+    <string name="splash_logo">Call Logo</string>
+    <string name="splash_title">Call Logger App</string>
 
     <string name="username_hint">Username</string>
     <string name="password_hint">Password</string>
     <string name="login_button">Login</string>
-    <string name="invalid_credentials">Invalid credentials</string>
 
     <string name="profile_name">Admin</string>
-    <string name="profile_role">Manager / Admin</string>
+    <string name="profile_role">Manager</string>
     <string name="profile_email">admin@example.com</string>
-    <string name="profile_phone">+91 9876543210</string>
+    <string name="profile_image_desc">Profile Image</string>
     <string name="view_contacts">View Contact List</string>
     <string name="view_call_log">View Call Log</string>
-    <string name="profile_image_desc">Profile Image</string>
+    <string name="view_dashboard">View Dashboard</string>
 
-    <string name="next">Next</string>
-    <string name="back">Back</string>
+    <string name="contact_list_title">Select a Contact</string>
+    <string name="name">Name</string>
+    <string name="number">1234567890</string>
+    <string name="call_button">Call</string>
+
+    <string name="feedback_title">Feedback for: [Contact Name]</string>
+    <string name="call_status_label">Call Status</string>
+    <string name="comments">Comments :</string>
+    <string name="comment_hint">Enter feedback here…</string>
+    <string name="save_feedback">Save Feedback</string>
+
+    <string name="call_log_title">Call Log</string>
+    <string name="status_prefix">Status: </string>
+    <string name="time_prefix">Time: </string>
+    <string name="comment_here">Comment Here </string>
+
+    <string name="dashboard_title">Dashboard</string>
+    <string name="total_calls">Total Calls: </string>
+    <string name="connected_count">Connected: </string>
+    <string name="busy_count">Busy: </string>
+    <string name="not_answered_count">Not Answered: </string>
 </resources>
