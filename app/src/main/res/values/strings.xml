@@ -14,6 +14,7 @@
     <string name="profile_email">admin@example.com</string>
     <string name="profile_phone">+91 9876543210</string>
     <string name="view_contacts">View Contact List</string>
+    <string name="view_call_log">View Call Log</string>
     <string name="profile_image_desc">Profile Image</string>
 
     <string name="next">Next</string>

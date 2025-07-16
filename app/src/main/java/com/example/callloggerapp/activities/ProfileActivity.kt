@@ -22,5 +22,9 @@ class ProfileActivity : AppCompatActivity() {
         binding.viewContactsButton.setOnClickListener {
             startActivity(Intent(this, ContactListActivity::class.java))
         }
+        binding.viewCallLogButton.setOnClickListener {
+            val intent = Intent(this, CallLogActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
